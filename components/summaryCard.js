@@ -14,7 +14,6 @@ export default function SummaryCard({ rankings, onSave, onEdit }) {
 
       {rankings.map((ranking, index) => (
         <div key={index} className="mb-4">
-            Hello index: {index}
           {ranking.athletes.length === 0 ? (
             <div className="flex items-center mb-4">
             <span className="bg-gray-300 text-gray-700 px-4 py-2 rounded-full mr-4">
