@@ -1,8 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
-import CompetitionCard from "../components/CompetitionCard";
-import SummaryCard from "../components/SummaryCard";
-import HomePage from "../components/HomePage";
+import CompetitionCard from "./components/CompetitionCard";
+import SummaryCard from "./components/SummaryCard";
+import HomePage from "./components/HomePage";
 
 export default function Page() {
   const [competitions, setCompetitions] = useState([]);
