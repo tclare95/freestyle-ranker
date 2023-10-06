@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { useState, useEffect } from "react";
 import CompetitionCard from "./components/CompetitionCard";
 import SummaryCard from "./components/SummaryCard";
