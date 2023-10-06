@@ -8,7 +8,7 @@ export default function HomePage({ onStart }) {
         </p>
 
         <p className="text-center mb-8">
-            You'll be able to see how your rankings compare to the actual results after the competition is over, and at intermediate stages in the competition such as after prelims and semis
+            You will be able to see how your rankings compare to the actual results after the competition is over, and at intermediate stages in the competition such as after prelims and semis
 
         </p>
         <button 
